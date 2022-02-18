@@ -2,6 +2,6 @@
 public class Test_AccCreation2 {
 @IsTest
     private static void testAccount(){
-        AccCreation.newAccountRecords();
+        AccCreation2.newAccountRecords();
     }
 }
