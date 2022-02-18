@@ -1,4 +1,4 @@
-public class AccCreation {
+public class AccCreation2 {
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
@@ -11,7 +11,7 @@ public class AccCreation {
         }
         if(accList.size() > 0) {
             insert  accList;
-        }//Apexclass0
+        }//Apexclass2
     }
     catch(Exception ex){
         system.debug('Exception_Line_No--->'+ex.getLineNumber());
