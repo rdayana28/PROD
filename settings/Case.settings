@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>rdayana@copado.com.prod</defaultCaseOwner>
+    <defaultCaseOwner>nnatha@copado.com.vlocity.uat</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>rdayana@copado.com.prod</defaultCaseUser>
+    <defaultCaseUser>nnatha@copado.com.vlocity.uat</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>

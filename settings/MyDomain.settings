@@ -4,8 +4,9 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>copado-3c2-dev-ed</myDomainName>
+    <myDomainName>copado508-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
+    <redirectPriorMyDomain>true</redirectPriorMyDomain>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
     <useEdge>false</useEdge>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
