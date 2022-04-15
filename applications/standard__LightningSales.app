@@ -5,10 +5,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
+    <tabs>vlocity_cmt__LWCDesigner</tabs>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHome</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
@@ -24,5 +25,7 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
