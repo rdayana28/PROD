@@ -11,11 +11,10 @@ public class AccCreation {
         }
         if(accList.size() > 0) {
             insert  accList;
-        }//Apexclass0
+        }
     }
     catch(Exception ex){
-        system.debug('Exception_Line_No--->'+ex.getLineNumber());
-        system.debug('Exception_Message--->'+ex.getMessage());
+
     }
     }
 }

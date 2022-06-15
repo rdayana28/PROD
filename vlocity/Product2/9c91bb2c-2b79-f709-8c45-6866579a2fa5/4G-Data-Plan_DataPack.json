@@ -131,6 +131,9 @@
     "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
     "%vlocity_namespace%__JeopardySafetyInterval__c": "",
     "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
     "%vlocity_namespace%__Modification__c": "",
     "%vlocity_namespace%__ObjectTypeId__c": {
         "%vlocity_namespace%__GlobalKey__c": "d14e749e370a37c0fc6ba62a05ddb7e7",
