@@ -1511,6 +1511,12 @@ IF(CONTAINS(&quot;IL:IN:IA:MI:MN:MO:NE:ND:OH:SD:WI&quot;, BillingState), &quot;N
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
+        <fullName>vlocity_cmt__Advertiser</fullName>
+        <active>true</active>
+        <description>Use the Advertiser Account to create an Entity which buys Ad-Deals directly from Publisher.</description>
+        <label>Advertiser</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>vlocity_cmt__Billing</fullName>
         <active>true</active>
         <description>Use a billing account to add an alternate billing profile to a business account, consumer account or billing aggregator account.</description>
