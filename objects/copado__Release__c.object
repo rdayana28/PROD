@@ -332,18 +332,30 @@
         <columns>NAME</columns>
         <columns>copado__Project__c</columns>
         <columns>copado__Version__c</columns>
-        <columns>copado__Base_Branch__c</columns>
+        <columns>copado__Planned_Date__c</columns>
         <columns>copado__Status__c</columns>
-        <columns>copado__Description__c</columns>
+        <columns>copado__Base_Branch__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Release Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Releases</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>copado__Project__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Version__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Planned_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Base_Branch__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>copado__Project__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Version__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Planned_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Base_Branch__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>copado__Validate_spaces_in_version</fullName>

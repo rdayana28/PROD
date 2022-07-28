@@ -395,8 +395,16 @@
     <label>Feature</label>
     <listViews>
         <fullName>copado__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Priority__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Application__c</columns>
+        <columns>copado__Product_Owner__c</columns>
+        <columns>copado__Architect__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Feature Name</label>
@@ -404,7 +412,20 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Features</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>copado__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Epic__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Application__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Product_Owner__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Architect__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>copado__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Epic__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Application__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Product_Owner__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Architect__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

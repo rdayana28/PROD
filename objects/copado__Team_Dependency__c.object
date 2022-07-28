@@ -361,13 +361,13 @@
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
-        <columns>copado__Deliverable__c</columns>
+        <columns>copado__Provider_User_Story__c</columns>
+        <columns>copado__Parent_User_Story_Status__c</columns>
+        <columns>copado__Dependent_User_Story__c</columns>
+        <columns>copado__Child_User_Story_Status__c</columns>
         <columns>copado__Dependency_Status__c</columns>
-        <columns>copado__Needed_by_Date__c</columns>
         <columns>copado__Dependent_Team__c</columns>
         <columns>copado__Provider_Team__c</columns>
-        <columns>copado__Dependent_User_Story__c</columns>
-        <columns>copado__Provider_User_Story__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
         <language>en_US</language>
@@ -380,12 +380,13 @@
     </nameField>
     <pluralLabel>User Story Dependencies</pluralLabel>
     <searchLayouts>
-        <customTabListAdditionalFields>copado__Deliverable__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Provider_User_Story__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Parent_User_Story_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Dependent_User_Story__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Child_User_Story_Status__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Dependency_Status__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Dependent_Team__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Provider_Team__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>copado__Dependent_User_Story__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>copado__Provider_User_Story__c</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>copado__Provider_User_Story__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>copado__Parent_User_Story_Status__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>copado__Dependent_User_Story__c</lookupDialogsAdditionalFields>
@@ -406,12 +407,13 @@
         <searchFilterFields>copado__Dependent_Team__c</searchFilterFields>
         <searchFilterFields>copado__Dependency_Status__c</searchFilterFields>
         <searchFilterFields>copado__Release__c</searchFilterFields>
-        <searchResultsAdditionalFields>copado__Deliverable__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Provider_User_Story__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Parent_User_Story_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Dependent_User_Story__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Child_User_Story_Status__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Dependency_Status__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Dependent_Team__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Provider_Team__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>copado__Dependent_User_Story__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>copado__Provider_User_Story__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

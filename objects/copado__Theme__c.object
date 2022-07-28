@@ -212,15 +212,30 @@
     <label>Theme</label>
     <listViews>
         <fullName>copado__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Active__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>copado__Theme_Details__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Theme Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Themes</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>copado__Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Theme_Details__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>copado__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Theme_Details__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -396,6 +396,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Languages__c</fullName>
         <externalId>false</externalId>
         <label>Languages</label>

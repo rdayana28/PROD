@@ -284,13 +284,36 @@ CASE( copado__Stability__c,
         </valueSet>
     </fields>
     <label>Application</label>
+    <listViews>
+        <fullName>copado__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Release_Status__c</columns>
+        <columns>copado__Stability__c</columns>
+        <columns>copado__Stability_Icon__c</columns>
+        <columns>copado__Parent_Application__c</columns>
+        <columns>copado__Product_Manager__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
     <nameField>
         <label>Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Applications</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>copado__Release_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Stability__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Stability_Icon__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Parent_Application__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>copado__Product_Manager__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>copado__Release_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Stability__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Stability_Icon__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Parent_Application__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Product_Manager__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>

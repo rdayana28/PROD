@@ -73,7 +73,7 @@
             <groupingSortProperties/>
             <header>Completed deployments</header>
             <legendPosition>Bottom</legendPosition>
-            <report>copado__Copado/copado__Completed_deployments</report>
+            <report>Testfolder/copado__Completed_deployments</report>
             <showPercentage>false</showPercentage>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
@@ -95,7 +95,7 @@
             <sortBy>RowLabelAscending</sortBy>
         </components>
     </rightSection>
-    <runningUser>rdayana@copado.com.prod</runningUser>
+    <runningUser>rdayana@copado.com.dev</runningUser>
     <textColor>#000000</textColor>
     <title>Copado Dashboard</title>
     <titleColor>#000000</titleColor>

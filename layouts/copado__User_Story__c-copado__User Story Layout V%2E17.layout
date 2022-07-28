@@ -57,6 +57,10 @@
                 <behavior>Edit</behavior>
                 <field>copado__Is_Bundle__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>copado__Platform__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -600,8 +604,12 @@
         <fields>copado__Metadata_API_Name__c</fields>
         <fields>copado__Status__c</fields>
         <fields>copado__Status_Icon__c</fields>
-        <fields>UPDATEDBY_USER</fields>
+        <fields>copado__Type__c</fields>
+        <fields>copado__Action__c</fields>
+        <fields>copado__ModuleDirectory__c</fields>
+        <fields>copado__Category__c</fields>
         <fields>LAST_UPDATE</fields>
+        <fields>UPDATEDBY_USER</fields>
         <relatedList>copado__User_Story_Metadata__c.copado__User_Story__c</relatedList>
         <sortField>copado__Status__c</sortField>
         <sortOrder>Desc</sortOrder>
@@ -727,13 +735,16 @@
         <fields>NAME</fields>
         <relatedList>copado__Bundled_Story__c.copado__User_Story__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedEntityHistoryList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1v000004nMGD</masterLabel>
+        <masterLabel>00h0900000AHmEG</masterLabel>
         <sizeX>3</sizeX>
         <sizeY>1</sizeY>
         <summaryLayoutItems>
